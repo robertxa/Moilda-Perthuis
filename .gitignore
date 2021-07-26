@@ -1,13 +1,13 @@
 # Ignore files:
 # Compiled python modules.
-**.pyc
-**.zip
-**.tar.gz
-**.rar
-**.php
-**.xls
-**.xlsx
-**.XLS
+*.pyc
+*.zip
+*.tar.gz
+*.rar
+*.php
+*.xls
+*.xlsx
+*.XLS
 
 # old Files
 *.ai
