@@ -1,6 +1,6 @@
 encoding  utf-8
   
-# Copyright (C) 2020-2021 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
   
@@ -12,7 +12,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Lutiniere-tot.th
+source irmondiaux-tot.th
 
 # Add Coordinates
 input legendes/entrances_coordinates.th
@@ -38,13 +38,13 @@ layout my_layout
   
 	# Call the config settings (Layout config inside the config.thc file)
 	
-	copy Coords_Header_Lutiniere
+	copy Coords_Header_Irmondiaux
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
 	
 	# Titre  
-	doc-title "Grotte de la Lutinière - Plan"
+	doc-title "Gouffre des Irmondiaux - Plan"
 	doc-author "Xavier Robert"
   
 	# Pour faire la topo dans le system UTM  
@@ -94,7 +94,7 @@ layout my_layout
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Plan<ss> - Fontanil - Cornillon, 38, France"
+	map-comment "<it>Plan<ss> - Innimond, 01, France"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -157,10 +157,10 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Grotte de la Lutinière} 		
+			\cavename={Gouffre des Irmondiaux} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={Groupe Spéléologique Vulcain}
+		\newtoks\club \club={Groupe Spéléologique Vulcain, ASNE, ?}
 	endcode  
 
 # add extended-elev on the same pdf
@@ -172,13 +172,13 @@ endlayout
 layout my_layout-coupe
 
 	# Call the config settings (Layout config inside the config.thc file)
-	copy Coords_Header_Lutiniere
+	copy Coords_Header_Irmondiaux
 	copy drawingconfig 
 	copy header_coupe 
 	copy langue-fr
 
 	# Titre  
-	doc-title "Grotte de la Lutinière - Coupe développée"
+	doc-title "Gouffre des Irmondiaux - Coupe développée"
 	doc-author "Xavier Robert"
   
 	# "base-scale" specifie l echelle auquel nous avons
@@ -225,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Coupe développée<ss> - Fontanil - Cornillon, 38, France"
+	map-comment "<it>Coupe développée<ss> - Innimond, 01, France"
 	#map-comment "<it>Coupe développée<ss>"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
@@ -300,10 +300,10 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Grotte de la Lutinière}
+			\cavename={Gouffre des Irmondiaux}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={Groupe Spéléologique Vulcain}
+		\newtoks\club \club={Groupe Spéléologique Vulcain, ASNE, ?}
 	endcode  
 
 endlayout  
@@ -321,24 +321,24 @@ endlayout
 
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/lutiniere-2021b-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/lutiniere-2021b-coupe.xvi
+export map -fmt xvi -layout xviexport -o Data/irmondiaux-2021b-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/irmondiaux-2021b-coupe.xvi
 
 # Select maps
-	select MP-Lutiniere-plan-tot@lutiniere
-	select MC-Lutiniere-coupe-tot@lutiniere
+	select MP-Irmondiaux-plan-tot@Irmondiaux
+	select MC-Irmondiaux-coupe-tot@Irmondiaux
 
-export map -projection extended -layout my_layout-coupe -o Outputs/lutiniere-coupe2021.pdf
-export map -o Outputs/lutiniere-plan2021.pdf -layout my_layout
+export map -projection extended -layout my_layout-coupe -o Outputs/irmondiaux-coupe2021.pdf
+export map -o Outputs/irmondiaux-plan2021.pdf -layout my_layout
 
-#export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/lutiniere-coupe-2020-Continuations.pdf
-#export map -o Outputs/lutiniere-plan-2020-Continuations.pdf -layout my_layout-Continuations
+#export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/irmondiaux-coupe-2020-Continuations.pdf
+#export map -o Outputs/irmondiaux-plan-2020-Continuations.pdf -layout my_layout-Continuations
 
-export model -o Outputs/lutiniere-2021.lox
+export model -o Outputs/irmondiaux-2021.lox
   
 # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Outputs/lutiniere -layout my_layout
+# export map -proj plan -fmt esri -o Outputs/irmondiaux -layout my_layout
   
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/lutiniere-2021.kml -layout my_layout
-export model -fmt kml -o Outputs/lutiniere-2021-filaire.kml
+export map -proj plan -fmt kml -o Outputs/irmondiaux-2021.kml -layout my_layout
+export model -fmt kml -o Outputs/irmondiaux-2021-filaire.kml

@@ -5,7 +5,7 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
 
-layout Entrances_coords_Lutiniere
+layout Entrances_coords_Irmondiaux
 # Layout where we define the different variables that contain the text with 
 # the entrance coordinates we want to print in the header.
 # We need one variable per entrance.
@@ -14,16 +14,16 @@ layout Entrances_coords_Lutiniere
 
 	code tex-map
 		\def\thjunk{ }
-		\def\thlocationLutiniere{Grotte de la Lutinière    --  Lat. : 45.25786 N ; Long. : 5.66626 E ; Alt. : 230 m}
+		\def\thlocationIrmondiaux{Gouffre des Irmondiaux    --  Lat. : 45.25786 N ; Long. : 5.66626 E ; Alt. : 230 m}
 	endcode 
 	
 endlayout
 
 
-layout Coords_Header_Lutiniere
+layout Coords_Header_Irmondiaux
 # Layout that set the presentation for the entrance coordinates.
 	
-	copy Entrances_coords_Lutiniere
+	copy Entrances_coords_Irmondiaux
 	# it calls the layout above Entrances_coords where we defined the different 
 	# variables that contain the text with 
 	# the entrance coordinates we want to print in the header.
@@ -41,8 +41,8 @@ layout Coords_Header_Lutiniere
 			\edef\tmp{\thjunk} \ifx\tmp\empty \else
 				{\size[\thsizem] \ss\thjunk\vss}
 			\fi
-			\edef\tmp{\thlocationLutiniere} \ifx\tmp\empty \else
-				{\size[\thsizem]\hskip2cm  \ss\thlocationLutiniere\vss}	% The first one should be without hskip
+			\edef\tmp{\thlocationIrmondiaux} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip2cm  \ss\thlocationIrmondiaux\vss}	% The first one should be without hskip
 			\fi
 		}
 	endcode

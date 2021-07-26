@@ -12,6 +12,7 @@
 # old Files
 **.ai
 **.dxf
+*.dxf
 **.txt
 **.eml
 **.ppt

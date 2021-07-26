@@ -4,14 +4,14 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-map MP-Moilda-plan-tot -title "Grotte de la Moilda"
-	SP-Moilda-1
+map MP-Irmondiaux-plan-tot -title "Gouffre des Irmondiaux"
+	SP-Irmondiaux-1
 	#break
 
 endmap
 
-#map MC-Moilda-coupe-tot -title "Grotte de la Moilda"
-	#SC-Moilda-1
-	#break	
+#map MC-Irmondiaux-coupe-tot -title "Gouffre des Irmondiaux"
+	#SC-Irmondiaux-1
+	#break
 #endmap
    
