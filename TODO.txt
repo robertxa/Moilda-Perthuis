@@ -1,9 +1,0 @@
-A FAIRE sur la base de données topographiques de la grotte de la Lutinière
-
-- Réviser le .gitignore
-- Ajouter le réseau de la Moilda (trouver les données...)
-- Ajouter le gouffre des Irmondiaux (trouver les données)
-- Faire les dessins de l'ensemble !
-- Ajouter MNT IGN et photo aérienne
-- Monter le SIG associé
-- 
