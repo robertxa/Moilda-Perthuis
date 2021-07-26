@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2020-2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Moilda-plan-tot -title "Grotte de la Moilda"
+	SP-Moilda-1
+	#break
+
+endmap
+
+#map MC-Moilda-coupe-tot -title "Grotte de la Moilda"
+	#SC-Moilda-1
+	#break	
+#endmap
+   
