@@ -1,4 +1,4 @@
-Base de données Topographiques du système karstique Moilda - Perthuis dans le massif karstique du Bugey (Ain, 01, France)
+Base de données Topographiques du système karstique Moilda - Perthuis dans le massif karstique du Bugey (01, France)
 =====================================================================================================================================================
 
 Overview
@@ -6,7 +6,7 @@ Overview
 
 Ce dépôt contient les données topographiques et les dessins associés des cavités du système Moilda - Perthuis dans le massif du Bugey (01, France).
 
-Ce dépôt est mis à jour à chaque fois qu'une nouvelle topographie est rajoutée à l'un des systèmes décrit dans cette base de données.
+Ce dépôt est mis à jour à chaque fois qu'une nouvelle topographie est ajoutée à l'un des systèmes décrit dans cette base de données.
 
 Si besoin, des templates pour Therion sont disponibles sur https://github.com/robertxa/Th-Config-Xav .
 
@@ -22,9 +22,6 @@ Uniquement les fichiers sources sont sauvegardés pour des raisons de taille ; j
 	* .thc, .th, .th2 et .thconfig pour le logiciel Therion
 	
 Pour obtenir les topographies en plan, coupe et/ou 3D, il faut compiler les fichiers Therion.
-
-L'ensemble de ces topographies est publié et décrit dans les différents Echos des Vulcains, revue annuelle du club Vulcain disponible sur le site internet (https://www.groupe-speleo-vulcain.com/publications/echo-des-vulcains/). Les topographies compilées peuvent aussi être téléchargées sur la page https://www.groupe-speleo-vulcain.com/explorations/topographies-effectuees-par-le-club/cavites-de-chartreuse/ .
-Le scan des notes topographiques de terrain est disponible sur demande.
 
 Une convention a été mise en place pour la gestion des points d'interrogation, avec la définition de différents champs :
 
