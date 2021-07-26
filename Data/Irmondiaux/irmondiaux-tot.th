@@ -1,0 +1,44 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Irmondiaux -title "Gouffre des Irmondiaux"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/irmondiaux.th
+   #input Data/lutiniereSiphons.th
+   #input Data/lutiniereS1S2.th
+   #input Data/lutiniereS2S3.th
+	
+   #centerline
+## Rajout des longueurs explorées, non topo, ou topos perdues
+#	station Ca.31@jb-amonts1 "+78 m explorés et topographiés le 1979.11.02 par Pierre Rias et France Guillaume, mais topographie perdue" continuation explored 78m	# Aval Gadoue (station Ca.31, 78 m)
+## Pour assembler plusieurs fichiers topos
+    #equate  6@lutiniere_entree  0@lutiniereSiphons
+    #equate  13@lutiniereSiphons  0@lutiniereS1S2
+    #equate  17@lutiniereS1S2  20@lutiniereSiphons
+    #equate  100@lutiniereSiphons	8@lutiniereS2S3
+   #endcenterline
+ 
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+	## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+## Pour le plan
+input Data/irmondiaux.th2
+#input Data/lutiniere-S3S4.th2
+#join SP-LutS3S4-1 SP-S3-2
+
+## Pour la coupe développée
+#input Data/irmondiaux-coupe.th2
+#input Data/lutiniere-S3S4-coupe.th2
+#join SC-LutS3S4-1 SC-S3-2
+
+## Appel des maps
+#input irmondiaux-maps.th
+
+endsurvey
