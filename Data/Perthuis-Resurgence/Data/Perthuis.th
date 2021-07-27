@@ -284,6 +284,7 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
   endcenterline
 
   centerline
+    # topographie du S4
 	  #date 2020.09.12 
       team "Stéphane Lips"
 		  #team "Guillaume Cerdan"
@@ -309,6 +310,8 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
     4.8          4.9                       5.50   80.00   -9.4  -5.60   1.00   2.00   5.00   2.00
     4.9          4.10                      7.30   80.00   -5.6  0.00   0.00   3.00   0.00   6.00
 
+    # Dév. : 78 m
+    
   endcenterline
 
   centerline

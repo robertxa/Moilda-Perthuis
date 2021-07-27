@@ -5,8 +5,30 @@ encoding  utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
 map MP-Perthuis-plan-tot -title "Résurgence du Perthuis - Groin de Marchamp"
+	
+	
+	SP-Perthuis-SurS3-1
+	break
+	SP-Perthuis-SPropre-1
+	break
+
+	SP-Perthuis-Cesar-3
+	break
+	SP-PerthuisCesar-2
+	break
+	SP-PerthuisCesar-1
+	break
+	SP-PerthuisVS4-1
+	break
+	SP-PerthuisVS4-2
+	break
 	SP-Perthuis-1
-	#break
+	break
+	SP-Perthuis-2
+	break
+	SP-PerthuisS4
+	break
+	SP-PerthuisS3-Sortie
 
 endmap
 
