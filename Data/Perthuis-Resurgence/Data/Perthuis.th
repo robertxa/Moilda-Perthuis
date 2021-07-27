@@ -19,6 +19,7 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
 	
 	  cs EPSG:27572
 	  fix Perthuis	849290 2093295  593  #LT2E ; Lambert II etendu
+    #fix Perthuis	849190 2093295  593  #LT2E ; Lambert II etendu ; coord inventaire 85
     
     units length meters
     units compass clino degrees

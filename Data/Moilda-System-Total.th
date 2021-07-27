@@ -1,0 +1,26 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey MassifMoilda -title "Système Moilda - Perthuis"
+# Pour importer les différentes données de différents fichiers topos : 
+	# Topo du trou des Copines 
+	input Copines-Grotte/copines-tot.th
+	# Topo de la grotte des Copains
+	#input Copains-Grotte/copains-tot.th
+	# Topo de la grotte Moilda
+	#input Moilda/moilda-tot.th
+	# Topo de la résurgence du Perthuis
+	input Perthuis-Resurgence/perthuis-tot.th
+	# Topo du gouffre des Irmondiaux
+	#input Irmondiaux/irmondiaux-tot.th
+	
+	# Add maps
+	#input Maps.th
+
+endsurvey
+ 	
+ 
+
