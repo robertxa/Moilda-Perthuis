@@ -6,7 +6,12 @@ encoding  utf-8
 
 map MP-Perthuis-plan-tot -title "Résurgence du Perthuis - Groin de Marchamp"
 	
-	
+	SP-Perthuis-M2021-2
+	break
+	SP-Perthuis-M2021-1
+	break
+	SP-Perthuis-Pluie-1
+	break
 	SP-Perthuis-SurS3-1
 	break
 	SP-Perthuis-SPropre-1
@@ -26,9 +31,17 @@ map MP-Perthuis-plan-tot -title "Résurgence du Perthuis - Groin de Marchamp"
 	break
 	SP-Perthuis-2
 	break
+	SP-Perthuis-Entree-1
+	break
 	SP-PerthuisS4
 	break
 	SP-PerthuisS3-Sortie
+	break
+	SP-Perthuis-S3-1
+	break
+	SP-Perthuis-S2-1
+	break
+	SP-Perthuis-S5-1
 
 endmap
 

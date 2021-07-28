@@ -111,7 +111,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 18 cm
+	legend-width 14.5 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -121,7 +121,8 @@ layout my_layout
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header -32 95 nw
-  
+	map-header -5 100 nw
+    
 	# arrière plan de la manchette
 	map-header-bg off
   
@@ -321,7 +322,7 @@ endlayout
 
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/perthuis-2021b-map.xvi
+export map -fmt xvi -layout xviexport -o Data/perthuis-2021c-map.xvi
 export map -proj extended -layout xviexport -fmt xvi -o Data/perthuis-2021b-coupe.xvi
 
 # Select maps

@@ -14,7 +14,7 @@ layout Entrances_coords_Perthuis
 
 	code tex-map
 		\def\thjunk{ }
-		\def\thlocationPerthuis{Résurgence du Perthuis    --  Lat. : 45.25786 N ; Long. : 5.66626 E ; Alt. : 230 m}
+		\def\thlocationPerthuis{Lat. : 45.79422 N ; Long. : 5.54418 E ; Alt. : 593 m}
 	endcode 
 	
 endlayout

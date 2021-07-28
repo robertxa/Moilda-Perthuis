@@ -15,7 +15,7 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 	# Topo de la résurgence du Perthuis
 	input Perthuis-Resurgence/perthuis-tot.th
 	# Topo du gouffre des Irmondiaux
-	#input Irmondiaux/irmondiaux-tot.th
+	input Irmondiaux/irmondiaux-tot.th
 	
 	# Add maps
 	#input Maps.th
