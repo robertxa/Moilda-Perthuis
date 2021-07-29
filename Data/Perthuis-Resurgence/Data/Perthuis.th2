@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -443.0 -246.0 1072.8432 3553.309
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {590.547 1 1.0} {216.52999999999997 Perthuis} perthuis-2021b-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {590.547 0 1.0} {216.52999999999997 Perthuis} perthuis-2021b-map.xvi 0 {}
 ##XTHERION## xth_me_image_insert {590.514 1 1.0} {216.64999999999986 Perthuis} perthuis-2021c-map.xvi 0 {}
 
 
@@ -634,7 +634,7 @@ line wall
   526.75 444.75 524.75 452.5 528.0 455.0
   531.25 457.5 535.0 457.5 533.25 464.25
   531.5 471.0 530.0 485.75 529.25 490.25
-  altitude [-578 m]
+  altitude [-574 m]
   528.5 494.75 532.25 500.25 532.0 502.25
   531.75 504.25 538.5 519.0 540.25 522.75
   542.0 526.5 542.75 533.75 542.25 535.75
@@ -1467,16 +1467,19 @@ line water-flow
   74.0 1877.0
   74.0 1877.0 60.0 1861.0 61.75 1850.5
   63.5 1840.0 71.75 1821.25 74.25 1817.0
+  smooth off
 endline
 
 line pit
   77.5 1886.75
   77.5 1886.75 72.0 1890.75 69.5 1897.5
+  smooth off
 endline
 
 line pit
   100.5 1927.5
   100.5 1927.5 96.25 1920.75 86.25 1922.5
+  smooth off
 endline
 
 point 95.0 1950.75 narrow-end
@@ -1484,6 +1487,7 @@ point 95.0 1950.75 narrow-end
 line pit
   100.5 1970.5
   100.5 1970.5 98.5 1964.0 89.0 1974.5
+  smooth off
 endline
 
 line wall
@@ -1543,6 +1547,7 @@ line wall
   120.5 1716.0 138.75 1703.25 143.25 1698.0
   147.75 1692.75 161.75 1687.0 166.75 1680.25
   171.75 1673.5 183.0 1653.0 184.0 1649.5
+  smooth off
 endline
 
 point 97.894 1962.12 station -name 2021-07-25-SL-26
@@ -1605,6 +1610,7 @@ endline
 line pit
   43.5 2070.0
   43.5 2070.0 39.5 2060.75 32.75 2059.5
+  smooth off
 endline
 
 point 7.0 2074.75 label -text "etr."
@@ -2693,6 +2699,7 @@ line wall -subtype unsurveyed
   569.5 2673.25 568.75 2779.25 568.5 2790.75
   568.25 2802.25 564.75 3030.0 564.75 3043.25
   564.75 3056.5 565.5 3148.0 565.25 3153.5
+  smooth off
   altitude [-577 m]
 endline
 
@@ -2770,6 +2777,7 @@ line wall
   altitude [-577 m]
   567.75 2493.5 570.5 2561.0 570.0 2570.75
   569.5 2580.5 570.75 2599.75 570.5 2603.25
+  smooth off
 endline
 
 line wall
@@ -2791,6 +2799,7 @@ line wall
   575.25 1969.75 576.25 1958.25 575.5 1953.75
   574.75 1949.25 572.25 1947.75 567.25 1947.75
   562.25 1947.75 557.0 1951.75 556.25 1945.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed

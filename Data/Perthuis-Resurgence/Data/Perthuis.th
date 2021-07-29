@@ -16,6 +16,11 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
 		  explo-team "GUS"
       explo-team "GS Vulcain"
       explo-team "ASNE"
+    explo-date 1973
+      explo-team "SSS Genève"
+      explo-team "Jacques Vigny"
+    explo-date 1984
+      explo-team "Bernard Cruat"
 	
 	  cs EPSG:27572
 	  fix Perthuis	849290 2093295  593  #LT2E ; Lambert II etendu
