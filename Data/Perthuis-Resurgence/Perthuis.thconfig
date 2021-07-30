@@ -278,8 +278,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier le pas de la grille, ici 100x100x100 metres
 	# (Trois dimensions, oui, ça sert pour la coupe aussi) 

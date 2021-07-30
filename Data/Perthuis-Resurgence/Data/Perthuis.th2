@@ -1139,7 +1139,7 @@ point 352.0 1405.5 passage-height -value [1 m]
 
 point 291.5 1429.25 label -text "<center>passage<br>bas"
 
-point 350.0 1374.5 height -value [-16 m]
+point 350.0 1374.5 height -value [+16 m]
 
 point 245.0 1652.5 height -value [+8 m]
 
@@ -1583,6 +1583,8 @@ point 44.72399999999999 1847.86 station -name 2021-07-25-SL-12
 point 59.744 1820.05 station -name 2021-07-25-SL-11
 
 point 73.114 1798.74 station -name 2021-07-25-SL-10
+
+point 117.25 1848.75 label -text "<center>méandre<br>du Pli"
 
 point 88.25400000000002 1770.94 station -name 2021-07-25-SL-9
 
