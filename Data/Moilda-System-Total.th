@@ -8,15 +8,46 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 # Pour importer les différentes données de différents fichiers topos : 
 	# Topo du trou des Copines 
 	input Copines-Grotte/copines-tot.th
+	
 	# Topo de la grotte des Copains
+	#      cordonnees approximatives : 45811416  5542503 au dessus de la route 20 m 
+	#      environ, ouverture en forme de triangle (JM Blanc)
 	#input Copains-Grotte/copains-tot.th
+	
 	# Topo de la grotte Moilda
+	#	Si quelqu’un pourrait t’aider pour la Moilda voir PARA, 
+	#	il a surement pas mal de docs (carte avec report de surface) (JM Blanc)
 	#input Moilda/moilda-tot.th
+	
+	# Topo de la Malischa
+	#	Pour la moilda ne pas oublier la Malischa ( publié sur un SD)
+	#	qui se trouve dans le pré à La pointe d’un bosquet au 45811416. 5542503 
+	#	ce trou est super dangereux ! Plaques pouvant tomber de la voute,
+	#	Se termine en etroiture ( pour l’histoire un ASNE c’est fait coincé et jaques Delors a du le chercher )
+	#	J’y ai travaillé un peu :courant d’air  faible , d’après YVAN ROBIN rejoindrait la moilda (JM Blanc)
+	
 	# Topo de la résurgence du Perthuis
 	input Perthuis-Resurgence/perthuis-tot.th
+	
 	# Topo du gouffre des Irmondiaux
 	input Irmondiaux/irmondiaux-tot.th
 	
+	# Topo du trou du chemin boueux
+	# 	Nous avions découvert un trou derrière les irmondiaux ( le petit trou du chemin boueux ) 
+	#	qui pourrait être intéressant dans ton étude,
+	#	certes il n’est pas très important mais il pourrait rejoindre la Moilda . 
+	#	Il est des bien dissimulé donc il faudrait que je monte (JM Blanc)
+
+	# Topo du trou des Plutons
+	
+	# Topo du trou le moins sardine
+	#	Juste en dessous du trou des plutons
+	
+	# Topo de la grotte de la Jacquette
+	#	au dessus des copines, en limite de falaise, suivre la ligne de crête sur la gauche 
+	#	pour arriver aux Plutons sur plus de 200 m
+	
+
 	# Add maps
 	#input Maps.th
 
