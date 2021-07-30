@@ -270,6 +270,7 @@ layout my_layout-coupe
 	# Il faut specifier un de ces points 
 	#map-header 0 30 nw
 	#map-header 0 0 off
+	map-header 0 20 nw
   
 	# arrière plan de la manchette
 	map-header-bg off

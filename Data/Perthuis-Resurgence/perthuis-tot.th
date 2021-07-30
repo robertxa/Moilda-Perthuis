@@ -9,17 +9,13 @@ survey Perthuis -title "Résurgence du Perthuis"
 # Pour importer les différentes données de différents fichiers topos : 
    input Data/perthuis.th
    #input Data/lutiniereSiphons.th
-   #input Data/lutiniereS1S2.th
-   #input Data/lutiniereS2S3.th
 	
    #centerline
-## Rajout des longueurs explorées, non topo, ou topos perdues
-#	station Ca.31@jb-amonts1 "+78 m explorés et topographiés le 1979.11.02 par Pierre Rias et France Guillaume, mais topographie perdue" continuation explored 78m	# Aval Gadoue (station Ca.31, 78 m)
-## Pour assembler plusieurs fichiers topos
-    #equate  6@lutiniere_entree  0@lutiniereSiphons
-    #equate  13@lutiniereSiphons  0@lutiniereS1S2
-    #equate  17@lutiniereS1S2  20@lutiniereSiphons
-    #equate  100@lutiniereSiphons	8@lutiniereS2S3
+      ## Rajout des longueurs explorées, non topo, ou topos perdues
+      #station Ca.31@jb-amonts1 "+78 m explorés et topographiés le 1979.11.02 par Pierre Rias et France Guillaume, mais topographie perdue" continuation explored 78m	# Aval Gadoue (station Ca.31, 78 m)
+      ## Pour assembler plusieurs fichiers topos
+      #equate  6@lutiniere_entree  0@lutiniereSiphons
+   
    #endcenterline
  
  
@@ -34,7 +30,7 @@ input Data/perthuis.th2
 #oin SP-LutS3S4-1 SP-S3-2
 
 ## Pour la coupe développée
-#input Data/perthuis-coupe.th2
+input Data/perthuis-coupe.th2
 #input Data/lutiniere-S3S4-coupe.th2
 #join SC-LutS3S4-1 SC-S3-2
 
