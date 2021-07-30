@@ -9,6 +9,7 @@ surface
     cs EPSG:2154
     #bitmap Orhto-Moilda.jpg [0 0 897167.5 6524352.52 643 364 332828.796 5110639.476]     # L'image Landsat
     # gdal_translate -projwin 897167.5 6526332.5 898332.5 6524352.5 -of JPEG "type=xyz&zmin=0&zmax=20&url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D{x}%26y%3D{y}%26z%3D{z}" /Users/robertxaold/Documents/SIG/Alpes/Ain/DEM/test-google.jpg
+    # pour les images IGN, prendre les numeros 0895-6530 et 0895-6525
     grid-units meter
     grid 897167.5 6524352.52 5.0 5.0 233 396
 
