@@ -7,8 +7,8 @@
 survey irmondiaux -title "Gouffre des Irmondiaux" -entrance Irmondiaux
 
   centerline
-	  #date 2020.09.12 
-      team "?"
+	  date 2008.11.29 
+      team "Stéphane Lips"
 		  #team "Guillaume Cerdan"
 	  explo-date 1973
 		  explo-team "SSS Genève"
@@ -59,6 +59,7 @@ survey irmondiaux -title "Gouffre des Irmondiaux" -entrance Irmondiaux
       explo-team "ASNE"
     explo-date 2008
       explo-team "Jeam-Michel Vallon"
+      explo-team "ADAMS"
 
     units length meters
     units compass clino grads
@@ -90,6 +91,7 @@ survey irmondiaux -title "Gouffre des Irmondiaux" -entrance Irmondiaux
       # Xavier Robert, Gaëtan Poschmann, Christophe Goutailler, Nathalie Duverlie
 
     #0          0            93349.0   93349.0    0.00    0.00   0.40   0.40   0.40   0.20
+    station 2008-0 "Désobstruction musclée" dig continuation explored 100m air-draught
     2008-0          2008-1                  93349   94023.0  396.00  -1.00   0.50   0.50   0.30   0.30
     2008-1          2008-2                  94023   94580.0  335.00   7.00   0.50   1.00   0.50   0.30
     2008-2          2008-3                  94580   95479.0  281.00   39.00   0.20   0.80   2.20   1.00

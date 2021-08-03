@@ -309,12 +309,15 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
 	  date 2007.04.21 
       team "Laurent Tarazona"
       team "Michel Guis"
+      team "Jean-Michel Vallon"
 		  #team "Guillaume Cerdan"
 	  #explo-date 1900.07.01
 		  explo-team "GUS"
       explo-team "GS Vulcain"
       explo-team "ASNE"
       explo-team "SSS Genève"
+      explo-team "ADAMS"
+
     
     units length meters
     units compass clino degrees
@@ -395,7 +398,9 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
       team "Stéphane Lips"
 		  #team "Guillaume Cerdan"
 	  #explo-date 2013.09.28
-		  #explo-team "Romain Roure"
+		  explo-team "Arnaud Billoud"
+      explo-team "Laurent Tarazona"
+      explo-team "Christian Roy"
       #explo-team "Xavier Robert"
       #explo-team "Stéphane Lips"
     
