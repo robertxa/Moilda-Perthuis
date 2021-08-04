@@ -130,7 +130,8 @@
 **/JB/JB/OLD*
 **/JB/JB/thconfig-coupe-old
 
-# Exceptions dans le dossier Samoens-GIS
+# Exceptions
+!/Data/OrthoMoilda.jpg
 !/Samoens-GIS/dem/IGN_JB_10m-IGN.th
 !/Samoens-GIS/dem/IGN_JB_10m-Map.th
 !/Samoens-GIS/dem/IGN_JB_10m-Sat.th

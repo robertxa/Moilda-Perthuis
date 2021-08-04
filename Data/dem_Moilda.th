@@ -1,15 +1,18 @@
 #ncols        233
 #nrows        396
-#xllcorner    897167.500000000000
-#yllcorner    6524352.500000000000
-#cellsize     5.000000000000
+#xllcorner    897167.5
+#yllcorner    6524352.5
+#cellsize     5.0
 
 surface
 
     cs EPSG:2154
     #bitmap Orhto-Moilda.jpg [0 0 897167.5 6524352.52 643 364 332828.796 5110639.476]     # L'image Landsat
-    # gdal_translate -projwin 897167.5 6526332.5 898332.5 6524352.5 -of JPEG "type=xyz&zmin=0&zmax=20&url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D{x}%26y%3D{y}%26z%3D{z}" /Users/robertxaold/Documents/SIG/Alpes/Ain/DEM/test-google.jpg
     # pour les images IGN, prendre les numeros 0895-6530 et 0895-6525
+    #Emprise	897167.4000000000232831,6524352.5999999996274710 : 898332.4000000000232831,6526332.5999999996274710
+    #Largeur	5825
+    #Hauteur	9900
+    bitmap OrthoMoilda.jpg [0 0 897167.4000000000232831 6524352.5999999996274710 5825 9900 898332.4000000000232831 6526332.5999999996274710]     # Images aériennes IGN
     grid-units meter
     grid 897167.5 6524352.52 5.0 5.0 233 396
 
