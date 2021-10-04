@@ -898,4 +898,26 @@ data normal from to length compass clino
     # Developpement : 44.08 m
   endcenterline
 
+
+centerline
+    # topographie du S5 de 340 m à 400 m
+	  date 2021.10.02 
+      team "Arnaud Billoud"
+	  explo-date 2021.10.02
+		  explo-team "Arnaud Billoud"
+  
+    units compass clino degrees
+    units counter meters
+    calibrate counter 0 1.0
+    data diving from to fromcount tocount compass fromdepth todepth  left  right up down
+      extend right
+        2017-17 2021-AB-1 320 345 315 -52 -56 2 0.3 1.5 0.2 # Départ à partir du terminus de 320 m
+        2021-AB-1 2021-AB-2 345 385 330 -56 -60 2 0.3 1.5 0.2 # Base de la cheminée remontante, suite non trouvée à cause de la mauvaise visibilité
+      extend left
+        2021-AB-2 2021-AB-3 385 395 180 -60 -53 3 0.1 10  10  # Arrêt dans cheminée remontante, ça continue (?)
+
+    # Developpement : 75 m
+
+    endcenterline
+
 endsurvey

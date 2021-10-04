@@ -42,6 +42,8 @@ map MP-Perthuis-plan-tot -title "Résurgence du Perthuis<br>ou Groin de Marchamp
 	SP-Perthuis-S2-1
 	break
 	SP-Perthuis-S5-1
+	break
+	SP-Perthuis-S5-2
 
 endmap
 
@@ -69,6 +71,8 @@ map MC-Perthuis-coupe-tot -title "Résurgence du Perthuis ou Groin de Marchamp"
 	SC-Perthuis-S5-1
 	break
 	SC-Perthuis-S5-2
+	break
+	SC-Perthuis-S5-3
 	break
 	SC-Perthuis-PMouche-1
 	break

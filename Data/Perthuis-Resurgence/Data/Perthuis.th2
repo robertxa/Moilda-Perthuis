@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -442.99699999999996 -246.0 1072.8462 3553.309
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -482.36799999999994 -245.99000000000024 1112.2154 3789.5395999999996
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {590.547 0 1.0} {216.52999999999997 Perthuis} perthuis-2021b-map.xvi 0 {}
 ##XTHERION## xth_me_image_insert {590.514 1 1.0} {216.64999999999986 Perthuis} perthuis-2021c-map.xvi 0 {}
 
@@ -2097,11 +2097,13 @@ point 654.0 1709.5 height -value [+30 m]
 line pit
   668.5 1664.0
   668.5 1664.0 660.75 1687.75 663.25 1697.5
+  smooth off
 endline
 
 line pit
   655.0 1665.25
   655.0 1665.25 658.25 1669.75 665.5 1665.75
+  smooth off
 endline
 
 line pit -id l593-661-1685 -close on
@@ -2116,11 +2118,13 @@ endline
 line pit
   645.75 1657.75
   645.75 1657.75 650.75 1690.75 644.25 1703.75
+  smooth off
 endline
 
 line pit -reverse on
   632.5 1709.25
   632.5 1709.25 647.0 1670.25 636.75 1657.25
+  smooth off
 endline
 
 point 655.25 1650.0 narrow-end
@@ -2150,6 +2154,7 @@ line wall
   632.75 1665.5
   632.75 1665.5 654.75 1669.75 656.0 1667.5
   657.25 1665.25 660.5 1662.0 661.25 1660.0
+  smooth off
 endline
 
 line pit
@@ -2191,6 +2196,7 @@ line wall
   587.75 1595.75 591.5 1589.25 599.75 1605.0
   608.0 1620.75 616.25 1640.75 623.0 1652.25
   629.75 1663.75 626.66 1660.79 632.75 1665.5
+  smooth off
 endline
 
 line wall
@@ -2754,19 +2760,29 @@ scrap SP-Perthuis-S5-1 -projection plan -station-names "" "@perthuis" -author 20
 
 point 547.5 3120.75 altitude -align left
 
-point 553.75 3173.75 continuation -attr Code S -attr Cavite "Perthuis" -text "Exploration du siphon à continuer, c'est la suite !"
+line wall -subtype unsurveyed
+  564.25 3121.5
+  564.25 3121.5 565.5 3133.25 558.0 3138.0
+  550.5 3142.75 545.5 3148.5 545.5 3148.5
+  smooth off
+endline
 
 line wall -subtype unsurveyed
   570.5 2603.25
   570.5 2603.25 570.5 2655.75 570.0 2664.5
   569.5 2673.25 568.75 2779.25 568.5 2790.75
   568.25 2802.25 564.75 3030.0 564.75 3043.25
-  564.75 3056.5 565.5 3148.0 565.25 3153.5
+  564.75 3056.5 564.5 3116.0 564.25 3121.5
   smooth off
   altitude [-577 m]
 endline
 
-point 472.25 2477.75 label -text "<it><center>S5<br>(340 m / -52 m)"
+point 472.25 2477.75 label -text "<it><center>S5<br>(415 m / -60 m)"
+
+line u:ariane
+  555.614 3136.4700000000003
+  545.5 3148.5
+endline
 
 line u:ariane
   559.5 1936.5
@@ -2806,8 +2822,8 @@ line label -id l517-652-2072 -close on
   576.0 2503.25
   579.25 2719.0
   575.5 3153.0
-  565.25 3153.5
-  546.0 3157.5
+  545.5 3148.5
+  539.0 3141.5
   514.0 3135.75
   548.75 2492.0
   544.0 2448.5
@@ -2866,8 +2882,8 @@ line wall
 endline
 
 line wall -subtype unsurveyed
-  546.0 3157.5
-  546.0 3157.5 547.75 3129.5 547.5 3120.75
+  539.0 3141.5
+  539.0 3141.5 547.75 3129.5 547.5 3120.75
   547.25 3112.0 550.0 3005.0 549.5 2995.25
   549.0 2985.5 552.0 2829.25 551.5 2819.75
   551.0 2810.25 553.5 2636.5 553.75 2629.25
@@ -2904,6 +2920,92 @@ point 565.4639999999999 1998.97 station -name 2017-05
 point 579.7139999999999 1974.96 station -name 2017-04
 
 point 580.0840000000001 1943.76 station -name 2017-03
+
+endscrap
+
+
+
+scrap SP-Perthuis-S5-2 -projection plan -station-names "" "@perthuis" -author 2021 "Xavier Robert" -copyright 2021 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m]
+
+line pit
+  408.75 3345.0
+  408.75 3345.0 404.75 3344.25 406.25 3334.0
+  407.75 3323.75 414.5 3311.75 416.25 3309.0
+  smooth off
+endline
+
+line pit
+  403.75 3306.75
+  403.75 3306.75 412.0 3300.75 417.5 3294.5
+  smooth off
+endline
+
+line pit
+  399.25 3335.0
+  399.25 3335.0 404.0 3325.25 407.5 3318.25
+  411.0 3311.25 413.0 3309.25 415.75 3306.25
+  smooth off
+endline
+
+area sump
+  l606-537-3211
+endarea
+
+line label -id l606-537-3211 -close on
+  520.0 3140.75
+  520.0 3140.75 537.0 3141.0 539.0 3141.5
+  541.0 3142.0 545.5 3148.5 545.5 3148.5
+  smooth off
+  537.75 3210.75
+  412.25 3351.25
+  391.75 3336.5
+  405.25 3299.5
+  415.25 3292.0
+  520.0 3140.75
+endline
+
+point 405.25 3299.5 altitude -align left
+
+point 406.5 3341.75 altitude -align top
+
+line wall
+  415.25 3292.0
+  altitude [-577 m]
+  415.25 3292.0 413.5 3319.25 415.75 3311.25
+  418.0 3303.25 442.25 3262.5 449.75 3249.75
+  457.25 3237.0 471.25 3207.75 481.25 3198.75
+  altitude [-577 m]
+  491.25 3189.75 536.75 3143.75 539.0 3141.5
+  smooth off
+endline
+
+line u:ariane
+  545.5 3148.5
+  486.85400000000004 3205.12
+  408.394 3340.75
+  408.414 3312.63
+endline
+
+line wall
+  545.5 3148.5
+  545.5 3148.5 505.25 3188.0 501.0 3193.5
+  496.75 3199.0 485.25 3212.75 472.75 3232.5
+  460.25 3252.25 418.25 3327.5 416.25 3331.75
+  altitude [-577 m]
+  414.25 3336.0 408.5 3345.5 406.5 3341.75
+  404.5 3338.0 399.5 3336.25 402.0 3331.0
+  404.5 3325.75 404.25 3317.25 406.0 3310.75
+  407.75 3304.25 405.25 3299.5 405.25 3299.5
+  smooth off
+endline
+
+point 486.85400000000004 3205.12 station -name 2021-AB-1
+
+point 408.394 3340.75 station -name 2021-AB-2
+
+point 408.414 3312.63 station -name 2021-AB-3
+
+point 403.25 3280.75 continuation -attr Code S -attr Cavite "Perthuis" -text "Exploration du siphon à continuer, c'est la suite !"
 
 endscrap
 

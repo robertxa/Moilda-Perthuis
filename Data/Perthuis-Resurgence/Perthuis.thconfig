@@ -121,7 +121,7 @@ layout my_layout
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
 	#map-header -32 95 nw
-	map-header -5 100 nw
+	map-header -5 95 nw
     
 	# arrière plan de la manchette
 	map-header-bg off
@@ -323,7 +323,7 @@ endlayout
 
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/perthuis-2021c-map.xvi
+export map -fmt xvi -layout xviexport -o Data/perthuis-2021d-map.xvi
 export map -proj extended -layout xviexport -fmt xvi -o Data/perthuis-2021b-coupe.xvi
 
 # Select maps
