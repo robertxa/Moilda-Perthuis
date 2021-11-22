@@ -106,7 +106,8 @@ layout my_layout
    surface bottom
    # Opacité de la surface [0-100]
    # Par défault 70
-   surface-opacity 70
+   #surface-opacity 70
+   surface-opacity 60
   
   # la topo est transparente (on peut voir les galeries sousjacentes)
   # C'est on par defaut, donc, pas vraiment besoin de specifier
@@ -186,10 +187,10 @@ layout my_layout
   \edef\nostring{}                 % empty string 
   \ifx\temp\nostring             % test if cavename is empty
         % if empty reassign cavename to describe selected maps as a group
-		\cavename={Système Moilda - Perthuis} 		
+		\cavename={Système karstique Moilda - Perthuis} 		
   \else % if not empty keep the value set by therion, or assign an override cavename here
   \fi
-  \newtoks\club \club={Groupe Spéléologique Vulcain}
+  \newtoks\club \club={Groupe Spéléologique des Plutons, Groupe Ulysse Spéléo (GUS), Groupe Spéléologique Vulcain, ASNE, ADAMS}
   \newtoks\synth \synth={Xavier Robert (2021)}
   %\newtoks\thanksto \thanksto={Jean Moatti, Charlotte Carpentier et Tendi Sherpa, les inconditionnels gardiens du refuge du Folly, ainsi qu'à Paul Grander et à la municipalité de Samoëns. Sans leur appui, les explorations du massif du Folly ne seraient pas possibles sans organiser des camps d'altitudes lourds.}
   endcode   

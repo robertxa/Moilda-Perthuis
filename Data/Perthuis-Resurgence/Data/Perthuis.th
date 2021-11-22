@@ -26,7 +26,8 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
 	  #fix Perthuis	849290 2093295  593  #LT2E ; Lambert II etendu
     #fix Perthuis	849190 2093295  593  #LT2E ; Lambert II etendu ; coord inventaire 85
     cs lat-long
-	  fix Perthuis  45.79425  5.54343 598
+	  #fix Perthuis  45.79425  5.54343 593 #598  # Coordonnées XR prises au GPS
+    fix Perthuis  45.793982  5.543608 593  # Coordonnées Basekarst
     
     units length meters
     units compass clino degrees

@@ -445,7 +445,8 @@ layout drawingconfig
 			pickup PenC;
 			path q, qq; q = bbox p;
 			picture tmp_pic;
-			uu := max(u, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart     llcorner q)/100);
+			% uu divided by 2 by Xavier Robert
+			uu := max(u, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart llcorner q)/100)/2;
 			tmp_pic := image(
 			for i = xpart llcorner q step 1.0uu until xpart urcorner q:
 				for j = ypart llcorner q step 1.0uu until ypart urcorner q:

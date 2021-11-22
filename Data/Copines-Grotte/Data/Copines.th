@@ -7,14 +7,27 @@
 survey copines -title "Trou des Copines" -entrance Copines
 
   centerline
-	  #date 2020.09.12 
+	  
+    date 1996.11 
       team "GUS"
 		  #team "Guillaume Cerdan"
 	  #explo-date 1900.07.01
 		  explo-team "GUS"
+    explo-date 1970
+      explo-team "Plutons"
+      explo-team "Joël Prigean"
+    explo-date 1979.01.21
+      explo-team "ASNE"
+
 	
-	  cs EPSG:27572
-	  fix Copines	849180 2093460  722  #LT2E ; Lambert II etendu
+	  #cs EPSG:27572
+	  #fix Copines	849180 2093460  722  #LT2E ; Lambert II etendu
+    #fix Copines	849180 2093107  722  #LT2E ; Lambert II etendu ; Coordonnées BaseKarst
+    cs lat-long
+	  #fix Copines	45.795655 5.542114  722  # Coordonnées d'après Google Earth
+    fix Copines	45.795698 5.542281  722  # Coordonnées d'après Google Earth
+
+    #fix Copines	45.792539 5.542108  722  # Coordonnées BaseKarst
     
     units length meters
     units compass clino degrees

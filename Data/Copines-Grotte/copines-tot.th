@@ -24,14 +24,14 @@ survey Copines -title "Trou des Copines"
 	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
 
 ## Pour le plan
-#input Data/copines.th2
-#join SP-LutS3S4-1 SP-S3-2
+input Data/copines.th2
+join SP-Copines-2 SP-Copines-3
 
 ## Pour la coupe développée
 #input Data/copines-coupe.th2
 #join SC-LutS3S4-1 SC-S3-2
 
 ## Appel des maps
-#input copines-maps.th
+input copines-maps.th
 
 endsurvey

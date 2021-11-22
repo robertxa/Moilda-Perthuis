@@ -4,10 +4,12 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-map MP-copines-plan-tot -title "Trou des copines"
-	SP-copines-1
-	#break
-
+map MP-Copines-plan-tot -title "Trou des copines"
+	SP-Copines-1
+	break
+	SP-Copines-2
+	break
+	SP-Copines-3
 endmap
 
 #map MC-Copines-coupe-tot -title "Trou des Copines"
