@@ -18,7 +18,9 @@ survey irmondiaux -title "Gouffre des Irmondiaux" -entrance Irmondiaux
 	  #cs EPSG:27572
     #fix Irmondiaux	849730 2099405  885  #LT2E ; Lambert II etendu
     cs long-lat
-	  fix Irmondiaux	5:32:59 45:48:03  885  #LT2E ; Lambert II etendu
+	  #fix Irmondiaux	5:32:59 45:48:03  885  
+    fix Irmondiaux	5.54927 45.80072  885 #903 # 923 #885  
+
     
     units length meters
     units compass clino degrees

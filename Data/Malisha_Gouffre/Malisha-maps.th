@@ -4,17 +4,14 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
+map MP-Malisha-plan-tot -title "Gouffre de la Malisha"
+	SP-Malisha-1
+	#break
 
-map MP-MoildaSystem-tot -title "Système karstiques du système Moilda-Perthuis"
-	#MP-Malisha@Malisha
-	#break
-	#MP-Copines@Copines
-	#break
-	#MP-Irmondiaux@irmondiax
-	#break
-	#MP-Moilda@Moilda
-	#break
-	#MP-Perthuis@perthuis
-	#break
-	
 endmap
+
+#map MC-Malisha-coupe-tot -title "Gouffre de la Malisha"
+	#SC-Malisha-1
+	#break
+#endmap
+   

@@ -22,9 +22,11 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
     explo-date 1984
       explo-team "Bernard Cruat"
 	
-	  cs EPSG:27572
-	  fix Perthuis	849290 2093295  593  #LT2E ; Lambert II etendu
+	  #cs EPSG:27572
+	  #fix Perthuis	849290 2093295  593  #LT2E ; Lambert II etendu
     #fix Perthuis	849190 2093295  593  #LT2E ; Lambert II etendu ; coord inventaire 85
+    cs lat-long
+	  fix Perthuis  45.79425  5.54343 598
     
     units length meters
     units compass clino degrees

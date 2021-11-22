@@ -4,17 +4,14 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
+map MP-MoinsSardine-plan-tot -title "Trou du Moins Sardine"
+	SP-MoinsSardine-1
+	#break
 
-map MP-MoildaSystem-tot -title "Système karstiques du système Moilda-Perthuis"
-	#MP-Malisha@Malisha
-	#break
-	#MP-Copines@Copines
-	#break
-	#MP-Irmondiaux@irmondiax
-	#break
-	#MP-Moilda@Moilda
-	#break
-	#MP-Perthuis@perthuis
-	#break
-	
 endmap
+
+#map MC-MoinsSardine-coupe-tot -title "Trou du Moins Sardine"
+	#SC-MoinsSardine-1
+	#break
+#endmap
+   

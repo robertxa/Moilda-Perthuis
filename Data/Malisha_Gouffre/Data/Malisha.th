@@ -1,0 +1,20 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Malisha -title "Gouffre de la Malisha"
+
+	centerline -extend right
+		cs lat-long
+		fix       Malisha       45.81142     5.54250     884
+		station   Malisha       "Gouffre de la Malisha" entrance
+		
+		explo-date 1979
+			explo-team "Jacques Bresse"
+			explo-team "Serge Petit"  
+
+	endcenterline
+
+endsurvey
