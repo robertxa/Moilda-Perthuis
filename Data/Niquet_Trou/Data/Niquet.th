@@ -1,0 +1,27 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Niquet -title "Trou Niquet"
+
+	centerline -extend right
+		cs lat-long
+		fix       Niquet       45.806888     5.542752     865
+		station   Niquet       "Trou Niquet" entrance
+		
+		explo-date 1976
+			explo-team "ASNE"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit" 
+
+		units length meters
+        units compass clino degrees
+
+		data normal from to length compass clino
+		Niquet	1	5	0	-90 
+
+	endcenterline
+
+endsurvey

@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Biolet-plan-tot -title "Gouffre du Biolet"
+	SP-Biolet-1
+	#break
+
+endmap
+
+#map MC-Biolet-coupe-tot -title "Gouffre du Biolet"
+	#SC-Biolet-1
+	#break
+#endmap
+   

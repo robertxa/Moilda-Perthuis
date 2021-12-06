@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Civet_de_Lievre-plan-tot -title "Grotte du Civet de Lièvre"
+	SP-Civet_de_Lievre-1
+	#break
+
+endmap
+
+#map MC-Civet_de_Lievre-coupe-tot -title "Grotte du Civet de Lièvre"
+	#SC-Civet_de_Lievre-1
+	#break
+#endmap
+   

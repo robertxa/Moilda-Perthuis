@@ -19,7 +19,8 @@ survey irmondiaux -title "Gouffre des Irmondiaux" -entrance Irmondiaux
     #fix Irmondiaux	849730 2099405  885  #LT2E ; Lambert II etendu
     cs long-lat
 	  #fix Irmondiaux	5:32:59 45:48:03  885  
-    fix Irmondiaux	5.54927 45.80072  885 #903 # 923 #885  
+    #fix Irmondiaux	5.54927 45.80072  885 #903 # 923 #885  
+    fix Irmondiaux	5.549417 45.800881  885 #903 # 923 #885  
 
     
     units length meters
@@ -60,7 +61,7 @@ survey irmondiaux -title "Gouffre des Irmondiaux" -entrance Irmondiaux
     explo-date 1978
       explo-team "ASNE"
     explo-date 2008
-      explo-team "Jeam-Michel Vallon"
+      explo-team "Jean-Michel Vallon"
       explo-team "ADAMS"
 
     units length meters

@@ -12,12 +12,13 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 	# Topo de la grotte des Copains
 	#      cordonnees approximatives : 45811416  5542503 au dessus de la route 20 m 
 	#      environ, ouverture en forme de triangle (JM Blanc)
-	#input Copains-Grotte/copains-tot.th
+	input Copains_Grotte/copains-tot.th
 	
 	# Topo de la grotte Moilda
-	#	Si quelqu’un pourrait t’aider pour la Moilda voir PARA, 
-	#	il a surement pas mal de docs (carte avec report de surface) (JM Blanc)
-	#input Moilda/moilda-tot.th
+	input Moilda/moilda-tot.th
+
+	# Topo du trou Niquet
+	input Niquet_Trou/Niquet-tot.th
 	
 	# Topo de la Malischa
 	#	Goffre de la Malischa (publié sur SD14) ; -38 m / 52 m ; Topo
@@ -27,36 +28,73 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 	#	J’y ai travaillé un peu : courant d’air faible, d’après YVAN ROBIN rejoindrait la Moilda (JM Blanc)
 	input Malisha_Gouffre/Malisha-tot.th
 
+	# Topo du gouffre du Luidon
+	input Luidon/Luidon-tot.th
+
+	# Topo du Trou du Bois de la Frarie
+	input BoisFrarie/BoisFrarie-tot.th
+
+	# Topo du gouffre des Charmilles
+	input Charmilles/Charmilles-tot.th
+
+	# Topo du gouffre du Civet de Lièvre
+	input Civet_de_Lievre/Civet_de_Lievre-tot.th
+
+	# Topo de la Balme à Berry
+	input Berry-balme/Berry-tot.th
+
+	# Topo du gouffre de la Herse
+	input Herse/Herse-tot.th
+
+	# Topo du trou du Maire
+	input Maire/Maire-tot.th
+
+	# Topo du trou de Motiou
+	input Motiou/Motiou-tot.th
+
+	# Topo du trou du Serpent
+	input Serpent/Serpent-tot.th
+
+	# Topo du trou du Serpent Supérieur
+	input SerpentSup/SerpentSup-tot.th
+
 	# Topo de la résurgence du Perthuis
 	input Perthuis-Resurgence/perthuis-tot.th
 	
 	# Topo du gouffre des Irmondiaux
 	input Irmondiaux/irmondiaux-tot.th
+
+	# Topo de la grotte du Méandre Griffé
+	input Meandre-Griffe/Meandre-Griffe-tot.th
 	
 	# Topo du trou du chemin boueux
-	# 	Nous avions découvert un trou derrière les irmondiaux ( le petit trou du chemin boueux ) 
+	# 	Nous avions découvert un trou derrière les irmondiaux (le petit trou du chemin boueux ) 
 	#	qui pourrait être intéressant dans ton étude,
 	#	certes il n’est pas très important mais il pourrait rejoindre la Moilda . 
 	#	Il est des bien dissimulé donc il faudrait que je monte (JM Blanc)
 	#input Chemin-Boueux-Trou/CheminBoueux-tot.th
 
 	# Topo du trou des Plutons
-	#input Plutons-Trou/Plutons-tot.th
+	input Plutons-Trou/Plutons-tot.th
 
 	# Topo du trou le moins sardine
 	#	Juste en dessous du trou des plutons
-	#input MoinsSardine-Trou/MoinsSardine-tot.th
+	input MoinsSardine-Trou/MoinsSardine-tot.th
 
 	# Topo de la grotte de la Jacquette
 	#	au dessus des copines, en limite de falaise, suivre la ligne de crête sur la gauche 
 	#	pour arriver aux Plutons sur plus de 200 m
-	#input Jacquette/Jacquette-tot.th
+	input Jacquette/Jacquette-tot.th
+
+
+	# Topo du gouffre de la Gravelière
+	input Graveliere/Graveliere-tot.th
 
 	# Topo du Biolet
-	#input Biolet-Gouffre/Biolet-Tot.th
+	input Biolet-Gouffre/Biolet-tot.th
 
 	# Topo du gouffre de la Morgne
-	#input Morgne-Gouffre/Morgne-Tot.th
+	#input Morgne-Gouffre/Morgne-tot.th
 
 	# Add maps
 	#input Maps.th

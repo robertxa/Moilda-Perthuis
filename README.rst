@@ -54,14 +54,16 @@ L'ensemble de ces données est publié sous la licence libre Creative Commons At
 Auteur de la base de données
 ----------------------------
 
-Xavier Robert (xavier.robert@ird.fr)
+Cette base de données est actuellement gérée par Xavier Robert (xavier.robert@ird.fr), mais elle ne peut exister que grâce au partage des données des autres clubs et topographes, notamment d'Yvan Robin, DU GUS. 
 
 How to cite
 -----------
 
-Robert, X., Base de données Topographiques du système karstiques Moilda - Perthuis (Bugey, 01, France), https://github.com/robertxa/Moilda-Perthuis , 2021. 
+En fonction des apports à cette base de données, les auteurs associés à la citation sont susceptibles de changer, afin de créditer les différents apports.
+
+Robert, X., Robin, Y., Base de données Topographiques du système karstiques Moilda - Perthuis (Bugey, 01, France), https://github.com/robertxa/Moilda-Perthuis, 2021. 
 
 Contact
 -------
 
-Pour plus d'informations, contacter le club Vulcain (https://www.groupe-speleo-vulcain.com/contacts/)
+Pour plus d'informations, demandes de corrections ou rajout de données, contacter l'auteur ou le club Vulcain (https://www.groupe-speleo-vulcain.com/contacts/)

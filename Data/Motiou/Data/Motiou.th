@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Motiou -title "Petit Trou de Motiou"
+
+	centerline -extend right
+		cs lat-long
+		fix       Motiou       45.809261     5.539749     913
+		station   Motiou       "Petit Trou de Motiou" entrance
+		
+		explo-date 2019.01.03
+			explo-team "Robert Bresson"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit"  
+
+	endcenterline
+
+endsurvey

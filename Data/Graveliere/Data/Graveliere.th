@@ -1,0 +1,25 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Graveliere -title "Gouffre de la Gravelière"
+
+	centerline -extend right
+		cs lat-long
+		fix       Graveliere       45.811733     5.523759     842
+		station   Graveliere       "Gouffre de la Gravelière" entrance
+		
+		explo-date 1984
+			explo-team "GSBLA"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit" 
+		date 1986
+			team "GSBLA"
+		date 1987
+			team "GUS"
+
+	endcenterline
+
+endsurvey

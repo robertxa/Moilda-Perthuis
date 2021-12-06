@@ -1,11 +1,20 @@
 A FAIRE sur la base de données topographiques du système Perthuis - Moilda
 
-- Réviser le .gitignore
-- Ajouter le réseau de la Moilda (trouver les données...), mais pour cela, il faut les données topos ! Qui les as ?
-- Faire les dessins de l'ensemble des Copines et des Irmondiaux
-- Rajouter petits trous (Copains, Malisha, trou des plutons, le moins sardine, la jacquette...), mais pour cela, il faut les données topos ! Qui les as ?
+    - Réviser le .gitignore
+    - Dessiner le réseau de la Moilda (Données Yvan Robin)
+    - Finir la topo de la Moilda sur le terrain (manque des amonts, > 1 km)
+    - Faire les dessins de l'ensemble des Copines et des Irmondiaux
+    - Rajouter petits trous (Copains, Malisha, trou des plutons, le moins sardine, la jacquette...), mais pour cela, il faut les données topos ! Qui les as ?
+    - Rajouter la topo du Biolet (Voir Laurent)
+    - Refaire la topo du gouffre de la Morgne
+    - Rajouter tous les petits trous autour du gouffre de la Morgne
+    - Réviser l'imagerie aérienne pour la drapper sur le MNT global
+    - 
 
 DONE
-- Ajouter MNT IGN et photo aérienne
-- Monter le SIG associé
--
+    - Ajouter MNT IGN et photo aérienne
+    - Monter le SIG associé
+    - Ajout topo Moilda
+    - Ajout du pointage de tous les petits trous enregistrés sur Basekarst 01
+    - Dessin plan Copines historique
+    - 

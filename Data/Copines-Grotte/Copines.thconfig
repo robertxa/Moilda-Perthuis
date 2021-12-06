@@ -261,7 +261,7 @@ layout my_layout-coupe
   
 	# Par defaut, la legende est de 14 cm de largeur
 	#legend-width 16.5 cm
-	legend-width 30 cm
+	legend-width 20 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -303,7 +303,7 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={trou des Copines}
+			\cavename={Trou des Copines}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Groupe Spéléologique des Plutons, ASNE, Groupe Ulysse Spéléo (GUS)}
@@ -331,7 +331,7 @@ export map -proj extended -layout xviexport -fmt xvi -o Data/copines-2021b-coupe
 	select MP-Copines-plan-tot@Copines
 	select MC-Copines-coupe-tot@Copines
 
-export map -projection extended -layout my_layout-coupe -o Outputs/copines-coupe2021.pdf
+export map -projection extended -layout my_layout-coupe -o Outputs/copines-coupe2021-Stations.pdf
 export map -o Outputs/copines-plan2021.pdf -layout my_layout
 
 #export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/Copines-coupe-2020-Continuations.pdf

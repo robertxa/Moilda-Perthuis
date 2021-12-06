@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Plutons -title "Trou Plutons"
+
+	centerline -extend right
+		cs lat-long
+		fix       Plutons       45.797069     5.545745     800
+		station   Plutons       "Trou des Plutons" entrance
+		
+		explo-date 1976
+			explo-team "ASNE"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit"  
+
+	endcenterline
+
+endsurvey

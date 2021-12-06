@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey BoisFrarie -title "Trou du Bois de la Frarie"
+
+	centerline -extend right
+		cs lat-long
+		fix       BoisFrarie       45.799306     5.551926     894
+		station   BoisFrarie       "Trou du Bois de la Frarie" entrance
+		
+		explo-date 1976
+			explo-team "ASNE"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit"  
+
+	endcenterline
+
+endsurvey

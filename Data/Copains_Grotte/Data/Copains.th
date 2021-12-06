@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Copains -title "Trou Copains"
+
+	centerline -extend right
+		cs lat-long
+		fix       Copains       45.793842     5.539893     640
+		station   Copains       "Grotte des Copains" entrance
+		
+		explo-date 1976
+			explo-team "ASNE"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit"  
+
+	endcenterline
+
+endsurvey

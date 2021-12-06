@@ -7,14 +7,14 @@
 survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
 
   centerline
-	  #date 2020.09.12 
+	  date 1998.05 
       team "GUS"
-      team "GS Vulcain"
-      team "ASNE"
+      #team "GS Vulcain"
+      #team "ASNE"
 		  #team "Guillaume Cerdan"
 	  #explo-date 1900.07.01
 		  explo-team "GUS"
-      explo-team "GS Vulcain"
+      #explo-team "GS Vulcain"
       explo-team "ASNE"
     explo-date 1973
       explo-team "SSS Genève"
@@ -26,8 +26,8 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
 	  #fix Perthuis	849290 2093295  593  #LT2E ; Lambert II etendu
     #fix Perthuis	849190 2093295  593  #LT2E ; Lambert II etendu ; coord inventaire 85
     cs lat-long
-	  #fix Perthuis  45.79425  5.54343 593 #598  # Coordonnées XR prises au GPS
-    fix Perthuis  45.793982  5.543608 593  # Coordonnées Basekarst
+	  fix Perthuis  45.79425  5.54343 593 #598  # Coordonnées XR prises au GPS
+    #fix Perthuis  45.793982  5.543608 593  # Coordonnées Basekarst
     
     units length meters
     units compass clino degrees
@@ -399,13 +399,10 @@ survey perthuis -title "Résurgence du Perthuis" -entrance Perthuis
     # topographie du S5
 	  date 2017.09.28 
       team "Stéphane Lips"
-		  #team "Guillaume Cerdan"
 	  #explo-date 2013.09.28
 		  explo-team "Arnaud Billoud"
       explo-team "Laurent Tarazona"
       explo-team "Christian Roy"
-      #explo-team "Xavier Robert"
-      #explo-team "Stéphane Lips"
     
     #units length meters
     units compass clino degrees
@@ -872,6 +869,8 @@ data normal from to length compass clino left right up down
 data normal from to length compass clino
 2021-07-25-SL-38 .                               2.49  236.80   11.60
 
+    # Dev : 204 m
+    
   endcenterline
 
   centerline

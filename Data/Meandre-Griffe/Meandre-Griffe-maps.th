@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Meandre-Griffe-plan-tot -title "Grotte du Méandre Griffé"
+	SP-Meandre-Griffe-1
+	#break
+
+endmap
+
+#map MC-Meandre-Griffe-coupe-tot -title "Grotte du Méandre Griffé"
+	#SC-Meandre-Griffe-1
+	#break
+#endmap
+   

@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2019 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Civet_de_Lievre -title "Grotte du Civet de Lièvre"
+
+	centerline -extend right
+		cs lat-long
+		fix       Civet_de_Lievre       45.796822     5.547764     847
+		station   Civet_de_Lievre       "Grotte du Civet de Lievre" entrance
+		
+		explo-date 2015
+			explo-team "EESV"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit"  
+
+	endcenterline
+
+endsurvey

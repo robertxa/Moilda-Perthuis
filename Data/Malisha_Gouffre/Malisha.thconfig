@@ -94,7 +94,7 @@ layout my_layout
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Plan<ss> - Innimond, 01, France"
+	map-comment "<it>Plan<ss> - Lompnas, 01, France"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -225,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Coupe développée<ss> - Innimond, 01, France"
+	map-comment "<it>Coupe développée<ss> - Lompnas, 01, France"
 	#map-comment "<it>Coupe développée<ss>"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd

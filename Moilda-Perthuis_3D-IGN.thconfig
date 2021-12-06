@@ -34,7 +34,8 @@ encoding  utf-8
 source Data/Moilda-System-Total.th
 
 # MNT de la zone, avec wrappage des images (éditer le fichier dem-*.th pour choisir l'image !)
-source Data/dem_Moilda.th
+#source Data/dem_Moilda.th
+source Data/dem-Moilda-Biolet.th
 
 # Add config file
 input config.thc 
@@ -192,7 +193,7 @@ layout my_layout
   \fi
   \newtoks\club \club={Groupe Spéléologique des Plutons, Groupe Ulysse Spéléo (GUS), Groupe Spéléologique Vulcain, ASNE, ADAMS}
   \newtoks\synth \synth={Xavier Robert (2021)}
-  %\newtoks\thanksto \thanksto={Jean Moatti, Charlotte Carpentier et Tendi Sherpa, les inconditionnels gardiens du refuge du Folly, ainsi qu'à Paul Grander et à la municipalité de Samoëns. Sans leur appui, les explorations du massif du Folly ne seraient pas possibles sans organiser des camps d'altitudes lourds.}
+  %\newtoks\thanksto \thanksto={}
   endcode   
 
 	# Add logos to the map
@@ -218,7 +219,7 @@ endlayout
 
 # Export des fichiers kml
 # export map -proj plan -fmt kml -o Outputs/Moilda-tot-2021.kml -layout my_layout
-# export model -fmt kml -o Outputs/Moilda-tot-2021-model.kml -layout my_layout
+ export model -fmt kml -o Outputs/Moilda-tot-2021-model.kml
 
 # Export de la database sql
 # export des statistiques de l'ensemble de la cavité
