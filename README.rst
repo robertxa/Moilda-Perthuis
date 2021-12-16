@@ -4,7 +4,7 @@ Base de données Topographiques du système karstique Moilda - Perthuis dans le 
 Overview
 --------
 
-Ce dépôt contient les données topographiques et les dessins associés des cavités du système Moilda - Perthuis dans le massif du Bugey (01, France).
+Ce dépôt contient les données topographiques et les dessins associés des cavités du système Moilda - Perthuis dans le massif du Bugey (01, France). Pour l'instant, pour des raisons de choix d'accès, seules les données produites par le club Vulcain sont accessibles. Pour pouvoir construire l'ensemble de la base de données topographiques, demander à l'auteur au cas par cas.
 
 Ce dépôt est mis à jour à chaque fois qu'une nouvelle topographie est ajoutée à l'un des systèmes décrit dans cette base de données.
 
@@ -13,7 +13,7 @@ Si besoin, des templates pour Therion sont disponibles sur https://github.com/ro
 Description
 -----------
 
-Ce dépôt sauvegarde les données topographiques et de dessin. Ces fichiers sont pour les logiciels Visual Topo (données) et/ou Therion (data + dessins).
+Ce dépôt sauvegarde les données topographiques et de dessins. Ces fichiers sont pour les logiciels Visual Topo (données) et/ou Therion (data + dessins).
 
 Uniquement les fichiers sources sont sauvegardés pour des raisons de taille ; j'ai aussi choisi de ne pas uploader les dessins dessinés à la main sur papier :
 
@@ -54,16 +54,16 @@ L'ensemble de ces données est publié sous la licence libre Creative Commons At
 Auteur de la base de données
 ----------------------------
 
-Cette base de données est actuellement gérée par Xavier Robert (xavier.robert@ird.fr), mais elle ne peut exister que grâce au partage des données des autres clubs et topographes, notamment d'Yvan Robin, DU GUS. 
+Cette base de données est actuellement gérée par Xavier Robert (xavier.robert@ird.fr), mais elle ne peut exister que grâce au partage des données des autres clubs et topographes, notamment d'Yvan Robin, du GUS. 
 
 How to cite
 -----------
 
 En fonction des apports à cette base de données, les auteurs associés à la citation sont susceptibles de changer, afin de créditer les différents apports.
 
-Robert, X., Robin, Y., Base de données Topographiques du système karstiques Moilda - Perthuis (Bugey, 01, France), https://github.com/robertxa/Moilda-Perthuis, 2021. 
+Robert, X., Base de données Topographiques du système karstiques Moilda - Perthuis (Bugey, 01, France), https://github.com/robertxa/Moilda-Perthuis, 2021. 
 
 Contact
 -------
 
-Pour plus d'informations, demandes de corrections ou rajout de données, contacter l'auteur ou le club Vulcain (https://www.groupe-speleo-vulcain.com/contacts/)
+Pour plus d'informations, demandes de corrections, rajout de données ou demandes de données complémentaires, contacter l'auteur ou le club Vulcain (https://www.groupe-speleo-vulcain.com/contacts/)
