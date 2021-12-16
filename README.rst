@@ -66,4 +66,4 @@ Robert, X., Base de données Topographiques du système karstiques Moilda - Pert
 Contact
 -------
 
-Pour plus d'informations, demandes de corrections, rajout de données ou demandes de données complémentaires, contacter l'auteur ou le club Vulcain (https://www.groupe-speleo-vulcain.com/contacts/)
+Pour plus d'informations, demandes de corrections, rajout de données ou demandes de données complémentaires sous copyright non libre, contacter l'auteur ou le club Vulcain (https://www.groupe-speleo-vulcain.com/contacts/)
