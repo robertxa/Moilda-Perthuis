@@ -118,12 +118,15 @@
 *.backup
 
 # Folders
-*Data/Moilda/Data/Moilda.th
-*/Data/Moila/Data/Moilda-backup.th
+*/Data/Moila/Data/
+#*Data/Moilda/Data/Moilda.th
+#*/Data/Moila/Data/Moilda-backup.th
 !Data/Moilda/Data/Data.rst
 
 */Data/Copines-Grotte/Data/
+!Data/Copines-Grotte/Data/Data.rst
 */Data/Biolet-Gouffre/Data/
+!Data/Biolet-Gouffre/Data/Data.rst
 
 *Data/
 */OLD/
