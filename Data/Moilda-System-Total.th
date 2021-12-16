@@ -74,6 +74,12 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 	#	Il est des bien dissimulé donc il faudrait que je monte (JM Blanc)
 	#input Chemin-Boueux-Trou/CheminBoueux-tot.th
 
+	# Topo du trou des 3 x849,895y 2087,889 Alt 897
+	#	(info Patrick Peloux)
+	#	un petit actif en bas du puit. Cavité non loin des Irmondiaux
+	#	Publication Spéléo dossier ° 37 et Spéléo 01 N°17
+	#input Trois-Trou/Trois-tot.th
+
 	# Topo du trou des Plutons
 	input Plutons-Trou/Plutons-tot.th
 

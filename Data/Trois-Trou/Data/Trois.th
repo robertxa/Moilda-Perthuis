@@ -1,0 +1,38 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Trois -title "Trou des Trois"
+
+	centerline -extend right
+		cs lat-long
+		fix       Trois       45.806636     5.542776     865
+		#cs EPSG:????
+		#x849,895y 2087,889 Alt 897
+		station   Trois       "Trou des Trois" entrance
+		
+		#explo-date 1976
+		#	explo-team "SSMJC Montluel"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Serge Petit"  
+		#explo-date 1980
+			explo-team "ASNE"
+		#explo-date 1990
+		#	explo-team "ASNE"
+		#	explo-team "Jacques Bresse"
+		#	explo-team "Jacque Delors"
+		#	explo-team "Patrick Douet"
+		#explo-date 1999
+		#	explo-team "GUS"
+		#explo-date 2005
+		#	explo-team "GUS"
+		#explo-date 2006
+		#	explo-team "GUS"
+		#explo-date 2016
+		#	explo-team "GUS"
+
+	endcenterline
+
+endsurvey

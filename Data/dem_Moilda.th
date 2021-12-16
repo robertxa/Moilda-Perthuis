@@ -6,7 +6,10 @@
 
 surface
 
-    cs EPSG:2154
+    #cs EPSG:2154    # Lambert 93 - RGF93
+    cs EPSG:5698    # Lambert 93 - RGF93 + NGF-IGN69
+    #cs EPSG:18085  # Lambert 93 (lequel ???)
+    #cs EPSG:9802
     #bitmap Orhto-Moilda.jpg [0 0 897167.5 6524352.52 643 364 332828.796 5110639.476]     # L'image Landsat
     # pour les images IGN, prendre les numeros 0895-6530 et 0895-6525
     #Emprise	897167.4000000000232831,6524352.5999999996274710 : 898332.4000000000232831,6526332.5999999996274710

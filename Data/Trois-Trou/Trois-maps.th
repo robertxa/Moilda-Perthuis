@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Trois-plan-tot -title "Trou des Trois"
+	SP-Trois-1
+	#break
+
+endmap
+
+#map MC-Trois-coupe-tot -title "Trou des Trois"
+	#SC-Trois-1
+	#break
+#endmap
+   

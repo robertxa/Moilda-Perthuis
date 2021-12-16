@@ -118,6 +118,8 @@
 *.backup
 
 # Folders
+*/Data/Moilda/
+*/Data/Copines-Grotte/
 */OLD/
 **/Old
 **/Irmondiaux/Old/
