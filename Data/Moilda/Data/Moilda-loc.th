@@ -1,0 +1,21 @@
+encoding utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr> - Yvan Robin <yvan-robin***@***orange.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Moilda -title "Grotte Moilda" -entrance Moilda
+
+    centerline
+	  
+	    #cs EPSG:27572
+	    #fix Moilda	849118 2094736  820  #LT2E ; Lambert II etendu
+        #fix Moilda	849118 2094736  870  #LT2E ; Lambert II etendu, data Basekarst Ain
+
+        cs lat-long
+        fix Moilda	45.807211 5.542166  870 # A revoir, ce n'est pas à jour
+        station   Moilda       "Grotte de la Moilda" entrance
+        
+    endcenterline
+
+endsurvey

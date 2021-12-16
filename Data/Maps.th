@@ -8,13 +8,14 @@ encoding  utf-8
 map MP-MoildaSystem-tot -title "Système karstiques du système Moilda-Perthuis"
 	#MP-Malisha@Malisha
 	#break
-	#MP-Copines@Copines
-	#break
-	#MP-Irmondiaux@irmondiax
-	#break
-	#MP-Moilda@Moilda
-	#break
-	#MP-Perthuis@perthuis
-	#break
+	MP-Irmondiaux@irmondiax
+	break
+	# Si les données de la Moilda ne sont pas accessibles, commenter les 2 lignes suivantes :
+	MP-Moilda@Moilda
+	break
+	# Si les données de la grotte des Copines ne sont pas accessibles, commenter les 2 lignes suivantes :
+	MP-Copines@Copines
+	break
+	MP-Perthuis@perthuis
 	
 endmap

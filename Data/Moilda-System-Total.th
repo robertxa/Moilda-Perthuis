@@ -8,6 +8,9 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 # Pour importer les différentes données de différents fichiers topos : 
 	# Topo du trou des Copines 
 	input Copines-Grotte/copines-tot.th
+	# Si les données topographiques ne sont pas accessibles, commenter la ligne précédente
+	# et décommenter la ligne suivante :
+	#input Copines-Grotte/Data/Copines-loc.th
 	
 	# Topo de la grotte des Copains
 	#      cordonnees approximatives : 45811416  5542503 au dessus de la route 20 m 
@@ -16,6 +19,9 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 	
 	# Topo de la grotte Moilda
 	input Moilda/moilda-tot.th
+	# Si les données topographiques ne sont pas accessibles, commenter la ligne précédente
+	# et décommenter la ligne suivante :
+	#input Moilda/Data/Moilda-loc.th
 
 	# Topo du trou Niquet
 	input Niquet_Trou/Niquet-tot.th
@@ -77,7 +83,7 @@ survey MassifMoilda -title "Système Moilda - Perthuis"
 	# Topo du trou des 3 x849,895y 2087,889 Alt 897
 	#	(info Patrick Peloux)
 	#	un petit actif en bas du puit. Cavité non loin des Irmondiaux
-	#	Publication Spéléo dossier ° 37 et Spéléo 01 N°17
+	#	Publication Spéléo Dossier N°37 et Spéléo 01 N°17
 	#input Trois-Trou/Trois-tot.th
 
 	# Topo du trou des Plutons

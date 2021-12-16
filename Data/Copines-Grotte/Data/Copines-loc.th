@@ -1,0 +1,24 @@
+encoding utf-8
+
+# Copyright (C) 2021 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey copines -title "Trou des Copines" -entrance Copines
+
+  centerline
+
+	  #cs EPSG:27572
+	  #fix Copines	849180 2093460  722  #LT2E ; Lambert II etendu
+    #fix Copines	849180 2093107  722  #LT2E ; Lambert II etendu ; Coordonnées BaseKarst
+    #fix Copines	849164 2093466  722  #LT2E ; Lambert II etendu ; Coordonnées Recalculée 11/2021
+    cs lat-long
+	  #fix Copines	45.795655 5.542114  722  # Coordonnées d'après Google Earth
+    #fix Copines	45.795698 5.542281  722  # Coordonnées d'après Google Earth
+    #fix Copines	45.792539 5.542108  722  # Coordonnées BaseKarst
+    fix Copines	45.79577 5.54209  722  # Coordonnées Recalculée 11/2021
+    station   Copines       "Grotte des Copines" entrance
+  
+  endcenterline
+
+endsurvey
