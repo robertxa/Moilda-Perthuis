@@ -119,6 +119,7 @@
 
 # Folders
 */Data/Moilda/Data/
+!/Data/Moilda/Data/Data.rst
 */Data/Copines-Grotte/Data/
 */Data/Biolet-Gouffre/Data/
 
