@@ -7,7 +7,7 @@ encoding  utf-8
 survey Biolet -title "Gouffre du Biolet"
 
 # Pour importer les différentes données de différents fichiers topos : 
-   input Data/Biolet.th
+   input Data/Biolet-loc.th
    #input Data/lutiniereSiphons.th
    #input Data/lutiniereS1S2.th
    #input Data/lutiniereS2S3.th
