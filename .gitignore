@@ -118,7 +118,7 @@
 *.backup
 
 # Folders
-**Data/Moilda/Data/Moilda.th
+*Data/Moilda/Data/Moilda.th
 */Data/Moila/Data/Moilda-backup.th
 !Data/Moilda/Data/Data.rst
 
