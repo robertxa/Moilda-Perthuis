@@ -1,6 +1,5 @@
 # Ignore files:
 # Compiled python modules.
-*.pyc
 *.zip
 *.tar.gz
 *.rar
@@ -23,7 +22,7 @@
 *.jpg
 *.JPG
 *.png
-#*.gif
+#*.gif # On en a besoin pour les dessins th2, et ce n'est pas lourd
 *.tif
 *.ppm
 *.dxf
@@ -118,18 +117,17 @@
 *.backup
 
 # Folders
-*/Data/Moila/Data/
-#*Data/Moilda/Data/Moilda.th
-#*/Data/Moila/Data/Moilda-backup.th
+*Data/Moilda/Data/Moilda.th
+*Data/Moilda/Data/Moilda-backup.th
 !Data/Moilda/Data/Data.rst
 
-**/Data/Copines-Grotte/Data/*
+*Data/Copines-Grotte/Data/Copines.th
 !Data/Copines-Grotte/Data/Data.rst
 
 #*/Data/Biolet-Gouffre/Data/
 !/Data/Biolet-Gouffre/Data/Data.rst
 
-*Data/
+# Dossiers avec les Old-files
 */OLD/
 **/Old
 **/Irmondiaux/Old/
@@ -138,28 +136,19 @@
 **/Perthuis-Resurgence/Old/
 
 # Specific files
-**/JB/JB/jb2.th
-**/JB/JB/OLD*
-**/JB/JB/thconfig-coupe-old
+#**/JB/JB/jb2.th
 
 # Exceptions
 !/Data/OrthoMoilda.jpg
-!/Samoens-GIS/dem/IGN_JB_10m-IGN.th
-!/Samoens-GIS/dem/IGN_JB_10m-Map.th
-!/Samoens-GIS/dem/IGN_JB_10m-Sat.th
-!/Samoens-GIS/dem/Carte.jpg
-!/Samoens-GIS/dem/IGN_ortho.jpg
-!/Samoens-GIS/dem/Sat.jpg
-!vulcain.gif
-!vulcain2.jpg
+!/Data/Moilda-Biolet.jpg
+
 !TODO.txt
-!JB/Gouffre-JB-problemes.rtf
 !Logos/vulcain.jpg
 !Logos/vulcainpar2.jpg
 !Logos/vulcainpar4.jpg
 !Logos/vulcain2.jpg
 !Logos/vulcain2par2.jp
 !Logos/vulcain2par4.jpg
-!Docs/BD-Topo_EV77.pdf
+
 
 
