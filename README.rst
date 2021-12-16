@@ -5,7 +5,7 @@ Overview
 --------
 
 Ce dépôt contient les données topographiques et les dessins associés des cavités du système Moilda - Perthuis dans le massif du Bugey (01, France). Pour l'instant, pour des raisons de choix d'accès des auteurs respectifs, seules les données produites par le club Vulcain sont accessibles en open-source. 
-Pour pouvoir construire l'ensemble de la base de données topographiques, soit commenter l'appel aux cavités sans les données open-sources dans 'Data/Moilda-System-Total.th' et dans `Data/Maps.th` les demander à l'auteur au cas par cas.
+Pour pouvoir construire l'ensemble de la base de données topographiques, soit commenter l'appel aux cavités sans les données open-sources dans ``Data/Moilda-System-Total.th`` et dans ``Data/Maps.th`` les demander à l'auteur au cas par cas.
 
 Ce dépôt est mis à jour à chaque fois qu'une nouvelle topographie est ajoutée à l'un des systèmes décrit dans cette base de données.
 
