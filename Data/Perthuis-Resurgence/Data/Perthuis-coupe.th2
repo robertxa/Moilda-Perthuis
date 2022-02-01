@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -167.3699999999999 -206.74199999999996 4261.8606 1348.4713000000002
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {354.33000000000015 1 1.0} {602.3580000000001 Perthuis} perthuis-2021b-coupe.xvi 0 {}
 
 
@@ -33,7 +33,7 @@ point 538.0 572.0 rimstone-pool
 
 point 490.5 591.5 rimstone-pool
 
-point 429.75 591.75 label -text "R2"
+point 429.75 591.75 label -text "R2.5"
 
 line rock-border -close on
   394.75 603.5
@@ -265,6 +265,8 @@ line wall
   smooth off
 endline
 
+point 1066.5 459.0 label -text "<center>Boite<br>aux Lettres"
+
 line wall
   883.25 504.5
   897.0 503.0 965.0 491.0 974.0 488.75
@@ -308,6 +310,16 @@ line wall
   smooth off
   altitude [-577 m]
 endline
+
+point 1062.75 490.25 breakdown-choke -orientation 332.4
+
+point 945.5 483.0 flute -clip off
+
+point 920.0 489.5 flute -clip off
+
+point 874.0 470.5 label -text "<center>carrefour<br>des Galets"
+
+point 871.0 507.0 pebbles
 
 line wall
   1071.5 515.0
@@ -405,6 +417,22 @@ line u:ariane
   1093.52 514.6880000000001
   1079.19 520.1980000000001
 endline
+
+point 1150.5 492.0 sand
+
+point 1146.5 494.5 sand
+
+point 1128.5 506.5 sand
+
+point 1143.0 497.5 sand
+
+point 1138.0 501.0 sand
+
+point 1132.5 504.0 sand
+
+point 1125.5 508.5 sand
+
+point 1171.5 534.0 label -text "<center>Le Saut<br>de l'Ange"
 
 line wall
   1570.0 587.25
@@ -530,7 +558,7 @@ line u:ariane
   smooth off
 endline
 
-point 1066.0 578.5 label -text "cloche"
+point 1066.0 578.5 label -text "cloche des Suisses"
 
 area sump
   l125-1100-535
@@ -556,7 +584,13 @@ line wall
   1106.0 540.5
   altitude [-576 m]
   1106.0 540.5 1102.0 552.0 1099.75 556.0
-  1097.5 560.0 1099.5 562.25 1092.5 561.25
+endline
+
+point 1109.0 563.5 water-flow -orientation 243.4
+
+line wall
+  1100.5 561.5
+  1098.25 565.5 1099.5 562.25 1092.5 561.25
   1085.5 560.25 1083.25 553.25 1078.25 553.25
   1073.25 553.25 1048.0 549.5 1039.5 546.75
   1031.0 544.0 1028.0 536.75 1030.75 530.25
@@ -592,6 +626,8 @@ line wall
   1383.5 606.0
   1383.0 574.75
 endline
+
+point 1534.0 629.0 height -value [-8 m]
 
 line wall
   1569.0 607.75
@@ -868,7 +904,7 @@ endscrap
 
 scrap SC-Perthuis-Gabin-1 -projection extended -station-names "" "@perthuis" -author 2021 "Xavier Robert" -copyright 2021 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3986.2698 -128.0 0.0 0.0 104.50245292 0.0 m]
 
-point 1996.25 583.5 continuation -attr Code S -attr Cavite "Perthuis" -text "Petit siphon à plonger, devrait rejoindre le méandre descendant
+point 1996.25 583.5 continuation -attr Code S -attr Cavite "Perthuis" -text "Petit siphon à plonger, devrait rejoindre le méandre descendant"
 
 point 1993.25 564.25 label -text "<center>siphon<br>Gabin"
 
@@ -1545,7 +1581,7 @@ line wall
   smooth off
 endline
 
-point 1916.5 716.5 continuation -attr Code Q -attr Cavite "Perthuis" -text "Terminus à revoir, on ne sait pas ce qui a été fait
+point 1916.5 716.5 continuation -attr Code Q -attr Cavite "Perthuis" -text "Terminus à revoir, on ne sait pas ce qui a été fait"
 
 line rope
   1935.25 715.0
@@ -1555,7 +1591,7 @@ endline
 
 point 1949.5 757.0 label -text "<center>salle<br>Propre"
 
-point 2170.75 673.25 label -text "<center>salle<br>Claire"
+point 2170.75 673.25 label -text "<center>salle<br>de la Boue<br>(Holiday On Ice)"
 
 line wall
   2235.25 686.5
@@ -1666,6 +1702,20 @@ line wall
   2278.5 608.0 2259.39 616.17 2262.5 627.25
   smooth off
 endline
+
+point 2270.0 600.5 clay
+
+point 2227.0 606.0 clay
+
+point 2495.0 555.5 scallop -clip off
+
+point 2459.0 559.5 scallop -clip off
+
+point 2424.0 564.5 scallop -clip off
+
+point 2390.0 571.5 scallop -clip off
+
+point 2360.0 577.5 scallop -clip off
 
 line wall
   2516.75 531.5
@@ -1986,6 +2036,7 @@ line u:ariane
   3551.01 333.29800000000006 3644.57 318.35 3648.16 317.54800000000006
   3651.75 316.75 3805.45 300.35 3804.8500000000004 301.79800000000006
   3804.25 303.25 3777.98 327.22 3776.7400000000002 329.35800000000006
+  smooth off
 endline
 
 point 3794.0 333.0 altitude -align top-right

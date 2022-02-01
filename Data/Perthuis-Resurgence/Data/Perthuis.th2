@@ -562,7 +562,11 @@ line u:ariane
   smooth off
 endline
 
-point 533.75 821.75 label -text "cloche"
+point 557.0 858.0 label -text "<center>Boite<br>aux Lettres"
+
+point 395.5 698.0 label -text "<center>Carrefour<br>des Galets"
+
+point 554.25 819.25 label -text "<center>cloche<br>des Suisses"
 
 point 419.75 880.0 label -text "<it><center>S2<br>(160 m / -18 m)"
 
@@ -697,6 +701,14 @@ point 477.61699999999996 651.5699999999999 station -name 1-20
 
 point 476.727 676.81 station -name 1-21
 
+point 464.5 842.5 breakdown-choke -orientation 157.5
+
+point 433.5 706.5 pebbles
+
+point 439.5 703.5 pebbles
+
+point 439.0 697.0 pebbles
+
 point 447.457 692.3499999999999 station -name 1-22
 
 point 429.267 751.77 station -name 1-23
@@ -802,7 +814,7 @@ line slope
   l-size 3.0
 endline
 
-point 533.25 261.0 label -text "R3"
+point 533.25 261.0 label -text "R2.5"
 
 line pit -reverse on
   543.5 268.0
@@ -947,7 +959,7 @@ line floor-meander
   smooth off
 endline
 
-point 339.75 1288.75 label -text "R3"
+point 339.75 1288.75 height -value [-8 m]
 
 line floor-meander
   369.0 1296.5
@@ -1704,6 +1716,8 @@ line water-flow
   smooth off
 endline
 
+point 327.0 1636.0 label -text "<center>m. des 2<br>Incompris"
+
 line wall
   383.5 1566.25
   383.5 1566.25 374.5 1568.0 371.5 1568.5
@@ -2078,7 +2092,19 @@ endline
 
 point 557.5 1826.0 label -text "<center>conduite<br>forcée"
 
-point 537.5 1703.0 label -text "<center>salle<br>Claire"
+point 624.0 1808.0 scallop -clip off
+
+point 605.5 1870.0 scallop -clip off
+
+point 590.0 1920.5 scallop -clip off
+
+point 568.0 1882.5 scallop -clip off
+
+point 590.0 1834.5 scallop -clip off
+
+point 592.0 1797.0 scallop -clip off
+
+point 537.5 1703.0 label -text "<center>salle<br>de la Boue<br>(Holiday On Ice)"
 
 point 607.25 1717.25 clay
 
