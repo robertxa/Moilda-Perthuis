@@ -12,7 +12,7 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source perthuis-tot.th
+source Graveliere-tot.th
 
 # Add Coordinates
 input legendes/entrances_coordinates.th
@@ -25,8 +25,8 @@ input ../../config.thc
 layout xviexport
 	#cs UTM32
 	# echelle a laquelle on veut dessiner la topo
-	#scale 1 500 # pour le plan
-	scale 1 1000 # pour la coupe
+	scale 1 500 # pour le plan
+	#scale 1 1000 # pour la coupe
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
@@ -38,13 +38,13 @@ layout my_layout
   
 	# Call the config settings (Layout config inside the config.thc file)
 	
-	copy Coords_Header_Perthuis
+	copy Coords_Header_Graveliere
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
 	
 	# Titre  
-	doc-title "Résurgence du Perthuis - Plan"
+	doc-title "Gouffre de la Gravelière - Plan"
 	doc-author "Xavier Robert"
   
 	# Pour faire la topo dans le system UTM  
@@ -94,7 +94,7 @@ layout my_layout
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Plan<ss> - Marchamp, 01, France"
+	map-comment "<it>Plan<ss> - Lompnas, 01, France"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
 	# si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -111,7 +111,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 14.5 cm
+	legend-width 18 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -120,9 +120,8 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	#map-header -32 95 nw
-	map-header -5 95 nw
-    
+	map-header -32 95 nw
+  
 	# arrière plan de la manchette
 	map-header-bg off
   
@@ -130,8 +129,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
    
 	# Specifier qu il faut imprimer une grille
@@ -158,10 +157,10 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Résurgence du Perthuis \smallbreak ou Groin de Marchamp} 		
+			\cavename={Gouffre de la Gravelière} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={SSS Genève, Groupe Spéléologique Vulcain, Groupe Ulysse Spéléo (GUS)}
+		\newtoks\club \club={?}
 	endcode  
 
 # add extended-elev on the same pdf
@@ -173,13 +172,13 @@ endlayout
 layout my_layout-coupe
 
 	# Call the config settings (Layout config inside the config.thc file)
-	copy Coords_Header_Perthuis
+	copy Coords_Header_Graveliere
 	copy drawingconfig 
 	copy header_coupe 
 	copy langue-fr
 
 	# Titre  
-	doc-title "Résurgence du Perthuis - Coupe développée"
+	doc-title "Gouffre de la Gravelière - Coupe développée"
 	doc-author "Xavier Robert"
   
 	# "base-scale" specifie l echelle auquel nous avons
@@ -226,7 +225,7 @@ layout my_layout-coupe
 	opacity 75
   
 	# Un commentaire a ajounter au titule,
-	map-comment "<it>Coupe développée<ss> - Marchamp, 01, France"
+	map-comment "<it>Coupe développée<ss> - Lompnas, 01, France"
 	#map-comment "<it>Coupe développée<ss>"
   
 	# Afficher les statistiques d explo par équipe/nom. C est lourd
@@ -268,9 +267,8 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	#map-header 0 30 nw
+	map-header 0 30 nw
 	#map-header 0 0 off
-	map-header 0 20 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -279,8 +277,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier le pas de la grille, ici 100x100x100 metres
 	# (Trois dimensions, oui, ça sert pour la coupe aussi) 
@@ -302,10 +300,10 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Résurgence du Perthuis - Groin de Marchamp}
+			\cavename={Gouffre de la Gravelière}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={SSS Genève, Groupe Spéléologique Vulcain, Groupe Ulysse Spéléo (GUS)}
+		\newtoks\club \club={?}
 	endcode  
 
 endlayout  
@@ -323,24 +321,24 @@ endlayout
 
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/perthuis-2023-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/perthuis-2023-coupe.xvi
+export map -fmt xvi -layout xviexport -o Data/Graveliere-2021b-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Graveliere-2021b-coupe.xvi
 
 # Select maps
-	select MP-Perthuis-plan-tot@Perthuis
-	select MC-Perthuis-coupe-tot@Perthuis
+	select MP-Graveliere-plan-tot@Graveliere
+	select MC-Graveliere-coupe-tot@Graveliere
 
-export map -projection extended -layout my_layout-coupe -o Outputs/Perthuis-coupe2023.pdf
-export map -o Outputs/Perthuis-plan2023.pdf -layout my_layout
+export map -projection extended -layout my_layout-coupe -o Outputs/Graveliere-coupe2021.pdf
+export map -o Outputs/Graveliere-plan2021.pdf -layout my_layout
 
-#export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/Perthuis-coupe-2020-Continuations.pdf
-#export map -o Outputs/Perthuis-plan-2020-Continuations.pdf -layout my_layout-Continuations
+#export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/Graveliere-coupe-2020-Continuations.pdf
+#export map -o Outputs/Graveliere-plan-2020-Continuations.pdf -layout my_layout-Continuations
 
-export model -o Outputs/Perthuis-2023.lox
+export model -o Outputs/Graveliere-2021.lox
   
 # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Outputs/Perthuis -layout my_layout
+# export map -proj plan -fmt esri -o Outputs/Graveliere -layout my_layout
   
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Perthuis.kml -layout my_layout
-export model -fmt kml -o Outputs/Perthuis-filaire.kml
+export map -proj plan -fmt kml -o Outputs/Graveliere-2021.kml -layout my_layout
+export model -fmt kml -o Outputs/Graveliere-2021-filaire.kml

@@ -1,0 +1,53 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+
+layout Entrances_coords_Graveliere
+# Layout where we define the different variables that contain the text with 
+# the entrance coordinates we want to print in the header.
+# We need one variable per entrance.
+
+# This layout is called by the layout Coords_Header below
+
+	code tex-map
+		\def\thjunk{ }
+		\def\thlocationGraveliere{Gouffre de la Graveliere    --  Lat. : 45.8117 N ; Long. : 5.5238  E ; Alt. : 842 m}
+	endcode 
+	
+endlayout
+
+
+layout Coords_Header_Graveliere
+# Layout that set the presentation for the entrance coordinates.
+	
+	copy Entrances_coords_Graveliere
+	# it calls the layout above Entrances_coords where we defined the different 
+	# variables that contain the text with 
+	# the entrance coordinates we want to print in the header.
+	
+	code tex-map
+		\def\nostring{}
+		\def\thsizexl{}
+		\def\thsizel{}
+		\def\thsizem{}
+		\ifx\thsizexl\nostring\def\thsizexl{30}\else\fi
+		\ifx\thsizel\nostring\def\thsizel{24}\else\fi
+		\ifx\thsizem\nostring\def\thsizem{12}\else\fi
+		
+		\ECoordinates={
+			\edef\tmp{\thjunk} \ifx\tmp\empty \else
+				{\size[\thsizem] \ss\thjunk\vss}
+			\fi
+			\edef\tmp{\thlocationGraveliere} \ifx\tmp\empty \else
+				{\size[\thsizem]\hskip2cm  \ss\thlocationGraveliere\vss}	% The first one should be without hskip
+			\fi
+		}
+	endcode
+
+endlayout
+
+
+
