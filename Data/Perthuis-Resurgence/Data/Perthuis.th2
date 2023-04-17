@@ -1750,7 +1750,7 @@ endscrap
 
 
 
-scrap SP-Perthuis-Cesar-3 -projection plan -station-names "" "@perthuis" -author 2021 "Xavier Robert" -copyright 2021 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m]
+scrap SP-Perthuis-Cesar-3 -projection plan -station-names "" "@perthuis" -author 2021 "Xavier Robert" -author 2023 "Xavier Robert" -copyright 2021 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.402 -128.0 0.0 0.0 26.5024108 0.0 m]
 
 line water-flow
   349.0 1570.0
