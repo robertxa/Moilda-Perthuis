@@ -111,7 +111,7 @@ layout my_layout
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	legend-width 18 cm
+	legend-width 16 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -120,7 +120,8 @@ layout my_layout
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header -32 95 nw
+	#map-header -32 95 nw
+	map-header 30 0 nw
   
 	# arrière plan de la manchette
 	map-header-bg off
@@ -160,7 +161,7 @@ layout my_layout
 			\cavename={Gouffre des Irmondiaux} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={Groupe Spéléologique Vulcain, ASNE, ?}
+		#\newtoks\club \club={Groupe Spéléologique Vulcain, ASNE, ?}
 	endcode  
 
 # add extended-elev on the same pdf
@@ -203,7 +204,7 @@ layout my_layout-coupe
 	scale 1 1000
  
 	# echelle graphique 50 m ampleur
-	scale-bar 200 m
+	scale-bar 100 m
    
 	# Pour faire une rotation
 	#rotate 2.25
@@ -257,8 +258,8 @@ layout my_layout-coupe
 	legend off
   
 	# Par defaut, la legende est de 14 cm de largeur
-	#legend-width 16.5 cm
-	legend-width 30 cm
+	legend-width 16.5 cm
+	#legend-width 30 cm
   
 	# Specification la position de la manchette : interieur
 	# occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -267,7 +268,7 @@ layout my_layout-coupe
 	# 100 100, c est en haut, a droite
 	# La manchette a des "points cardinaux" : n, s, ne, sw, etc.
 	# Il faut specifier un de ces points 
-	map-header 0 30 nw
+	map-header 0 -10 nw
 	#map-header 0 0 off
   
 	# arrière plan de la manchette
@@ -303,7 +304,7 @@ layout my_layout-coupe
 			\cavename={Gouffre des Irmondiaux}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
-		\newtoks\club \club={Groupe Spéléologique Vulcain, ASNE, ?}
+		#\newtoks\club \club={Groupe Spéléologique Vulcain, ASNE, ?}
 	endcode  
 
 endlayout  
@@ -319,26 +320,37 @@ layout my_layout-coupe-Continuations
 	copy layoutcontinuation	# Pour afficher le label des continuations
 endlayout
 
+layout layout-kml
+  # Définition du système de projection du plan
+  cs UTM32
+  # Couleur de la topographie
+  # Rouge-Orange = 255,69,0 -->
+  # Orange = 255,165,0 -->
+  # Orange Sombre = 255,140,0 -->
+  # Bleu --> 0, 0 255
+  color map-fg [0 0 100]
+endlayout
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/irmondiaux-2021b-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/irmondiaux-2021b-coupe.xvi
+export map -fmt xvi -layout xviexport -o Data/irmondiaux-2022-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/irmondiaux-2022-coupe.xvi
 
 # Select maps
 	select MP-Irmondiaux-plan-tot@Irmondiaux
 	select MC-Irmondiaux-coupe-tot@Irmondiaux
 
-export map -projection extended -layout my_layout-coupe -o Outputs/irmondiaux-coupe2021.pdf
-export map -o Outputs/irmondiaux-plan2021.pdf -layout my_layout
+export map -projection extended -layout my_layout-coupe -o Outputs/irmondiaux-coupe.pdf
+export map -o Outputs/irmondiaux-plan.pdf -layout my_layout
 
 #export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/irmondiaux-coupe-2020-Continuations.pdf
 #export map -o Outputs/irmondiaux-plan-2020-Continuations.pdf -layout my_layout-Continuations
 
-export model -o Outputs/irmondiaux-2021.lox
+export model -o Outputs/irmondiaux.lox
   
 # Export des fichiers ESRI
 # export map -proj plan -fmt esri -o Outputs/irmondiaux -layout my_layout
+# export model -fmt esri -o Outputs/irmondiaux
   
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/irmondiaux-2021.kml -layout my_layout
-export model -fmt kml -o Outputs/irmondiaux-2021-filaire.kml
+export map -proj plan -fmt kml -o Outputs/irmondiaux.kml -layout layout-kml
+export model -fmt kml -o Outputs/irmondiaux-filaire.kml

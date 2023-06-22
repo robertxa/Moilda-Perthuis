@@ -14,7 +14,7 @@ layout Entrances_coords_Irmondiaux
 
 	code tex-map
 		\def\thjunk{ }
-		\def\thlocationIrmondiaux{Gouffre des Irmondiaux    --  Lat. : 45.25786 N ; Long. : 5.66626 E ; Alt. : 230 m}
+		\def\thlocationIrmondiaux{Gouffre des Irmondiaux    --  Lat. : 45.80088 N ; Long. : 5.54642 E ; Alt. : 885 m}
 	endcode 
 	
 endlayout
